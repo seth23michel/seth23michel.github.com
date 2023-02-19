@@ -11,7 +11,7 @@ body {
   }
 
   .nav-wrapper{
-    margin: 10px 200px 0px;
+    margin: 0.625em 12.5em 0px;
   }
 
   .nav-wrapper img{
@@ -63,6 +63,9 @@ body {
 
   @media screen and (max-width: 767px) {
     /* Small screens */
+    .nav-wrapper{
+      margin: 0.625em 0px 0px 0px;
+    }
   
     /* Center the logo */
     .logo-wrapper {
