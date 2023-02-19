@@ -15,7 +15,7 @@ body {
   }
 
   .nav-wrapper img{
-    filter: drop-shadow(0 0 10px rgb(0,0,0,0.4));
+    filter: drop-shadow(0 0 0.625em rgb(0,0,0,0.4));
   }
 
   .logo-wrapper {
@@ -43,22 +43,22 @@ body {
   
   nav #Nike_logo:hover img {
     transform: scale(1.1) rotate(-5deg);
-    filter: invert(39%) sepia(51%) saturate(2351%) hue-rotate(2deg) brightness(105%) contrast(103%) drop-shadow(0 0 10px rgb(255, 102, 0, 0.6));
+    filter: invert(39%) sepia(51%) saturate(2351%) hue-rotate(2deg) brightness(105%) contrast(103%) drop-shadow(0 0 0.625em rgb(255, 102, 0, 0.6));
   }
 
   nav #Jumpman_logo:hover img {
     transform: scale(1.1) rotate(5deg);
-    filter: invert(15%) sepia(75%) saturate(3876%) hue-rotate(342deg) brightness(94%) contrast(105%) drop-shadow(0 0 10px rgb(206, 17, 38, 0.6));
+    filter: invert(15%) sepia(75%) saturate(3876%) hue-rotate(342deg) brightness(94%) contrast(105%) drop-shadow(0 0 0.625em rgb(206, 17, 38, 0.6));
   }
 
   nav #Adidas_logo:hover img {
     transform: scale(1.1) rotate(-5deg);
-    filter: invert(23%) sepia(30%) saturate(5785%) hue-rotate(204deg) brightness(92%) contrast(105%) drop-shadow(0 0 10px rgb(0, 81, 186, 0.6));
+    filter: invert(23%) sepia(30%) saturate(5785%) hue-rotate(204deg) brightness(92%) contrast(105%) drop-shadow(0 0 0.625em rgb(0, 81, 186, 0.6));
   }
 
   nav #sneaker_logo:hover img {
     transform: scale(1.1) rotate(5deg);
-    filter: invert(72%) sepia(37%) saturate(5153%) hue-rotate(42deg) brightness(96%) contrast(93%) drop-shadow(0 0 10px rgb(117, 183, 9, 0.6));
+    filter: invert(72%) sepia(37%) saturate(5153%) hue-rotate(42deg) brightness(96%) contrast(93%) drop-shadow(0 0 0.625em rgb(117, 183, 9, 0.6));
   }
 
   @media screen and (max-width: 767px) {
