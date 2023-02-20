@@ -16,11 +16,13 @@ body {
     backdrop-filter: blur(5px); /* Apply a blur effect to the background */
     }
 
-  .nav-wrapper img{
-    filter: drop-shadow(0 0 0.625em rgb(0,0,0,0.4));
-  }
+    #main_logo, #Nike_logo, #Jumpman_logo, #Adidas_logo, #sneaker_logo {
+      filter: invert(100%);
+    }
 
-  
+  .nav-wrapper img{
+    filter: drop-shadow(0 0 0.625em rgb(0, 0, 0));
+  }
 
   .logo-wrapper {
     float: left;
@@ -38,14 +40,11 @@ body {
   
   .nav_logo img {
     vertical-align: middle;
-  }
-
-
-  .nav_logo img {
     transition: all 0.3s;
   }
   
   nav #Nike_logo:hover img {
+    
     transform: scale(1.1) rotate(-5deg);
     filter: invert(39%) sepia(51%) saturate(2351%) hue-rotate(2deg) brightness(105%) contrast(103%) drop-shadow(0 0 0.625em rgb(255, 102, 0, 0.6));
   }
