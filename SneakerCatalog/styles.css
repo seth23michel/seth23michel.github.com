@@ -10,13 +10,17 @@ body {
     height: 100vh;
   }
   
-  .nav-wrapper{
-    margin: 0.625em 12.5em 0px;
-  }
+  .nav-wrapper {
+    padding: 0.625em 12.5em 0.625em;
+    background-color: rgba(5, 5, 5, 0.13); /* Set a semi-transparent white background */
+    backdrop-filter: blur(5px); /* Apply a blur effect to the background */
+    }
 
   .nav-wrapper img{
     filter: drop-shadow(0 0 0.625em rgb(0,0,0,0.4));
   }
+
+  
 
   .logo-wrapper {
     float: left;
