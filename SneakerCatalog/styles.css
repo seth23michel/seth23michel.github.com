@@ -16,10 +16,6 @@ body {
     backdrop-filter: blur(5px); /* Apply a blur effect to the background */
     }
 
-    #main_logo, #Nike_logo, #Jumpman_logo, #Adidas_logo, #sneaker_logo {
-      filter: invert(100%);
-    }
-
   .nav-wrapper img{
     filter: drop-shadow(0 0 0.625em rgb(0, 0, 0));
   }
@@ -32,6 +28,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #generic_logo{
+    padding-top: 0.375em;
   }
   
   .nav_logo {
@@ -67,7 +67,7 @@ body {
   @media screen and (max-width: 767px) {
     /* Small screens */
     .nav-wrapper{
-      margin: 0.625em 0px 0px 0px;
+      padding: 0.625em 0px 0px 0px;
     }
   
     /* Center the logo */
