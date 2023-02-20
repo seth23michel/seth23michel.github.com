@@ -4,7 +4,7 @@ body {
     background-image: url("img/etc/pink_sneaker_wallpaper.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center center;
     min-height: 400px;
     overflow: hidden;
     height: 100vh;
@@ -44,14 +44,13 @@ body {
   }
   
   nav #Nike_logo:hover img {
-    
     transform: scale(1.1) rotate(-5deg);
-    filter: invert(39%) sepia(51%) saturate(2351%) hue-rotate(2deg) brightness(105%) contrast(103%) drop-shadow(0 0 0.625em rgb(255, 102, 0, 0.6));
+    filter: invert(37%) sepia(84%) saturate(767%) hue-rotate(329deg) brightness(97%) contrast(99%) drop-shadow(0 0 0.625em rgb(255, 102, 0, 0.6));
   }
 
   nav #Jumpman_logo:hover img {
     transform: scale(1.1) rotate(5deg);
-    filter: invert(15%) sepia(75%) saturate(3876%) hue-rotate(342deg) brightness(94%) contrast(105%) drop-shadow(0 0 0.625em rgb(206, 17, 38, 0.6));
+    filter: invert(9%) sepia(98%) saturate(5289%) hue-rotate(4deg) brightness(97%) contrast(115%) drop-shadow(0 0 0.625em rgb(206, 17, 38, 0.6));
   }
 
   nav #Adidas_logo:hover img {
