@@ -50,11 +50,13 @@ body {
   }
 
   nav #Jumpman_logo:hover img {
+    
     transform: scale(1.1) rotate(5deg);
     filter: invert(9%) sepia(98%) saturate(5289%) hue-rotate(4deg) brightness(97%) contrast(115%) drop-shadow(0 0 0.625em rgb(206, 17, 38, 0.6));
   }
 
   nav #Adidas_logo:hover img {
+    
     transform: scale(1.1) rotate(-5deg);
     filter: invert(23%) sepia(30%) saturate(5785%) hue-rotate(204deg) brightness(92%) contrast(105%) drop-shadow(0 0 0.625em rgb(0, 81, 186, 0.6));
   }
